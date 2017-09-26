@@ -1,0 +1,167 @@
+html {
+  width: 100%;
+  background-color: black;
+  font-family: "helvetica", sans-serif;
+  font-size: 22px;
+  color: seashell;
+  opacity: 0.9;
+}
+
+
+
+.header {
+  display: flex;
+  position: fixed;
+  align-items: center;
+  z-index: 5;
+  width: 100%;
+  height: 69px;
+  background-color: black;
+  border-bottom: 1px solid seashell;
+}
+
+.header img {
+  height: 50px;
+  padding-left: 10px;
+}
+
+.header nav {
+  width: 100%;
+  padding-right: 10px;
+  text-align: right;
+}
+
+.header span {
+  display: inline-block;
+  padding: 15px 10px;
+}
+
+.header a {
+  color: seashell;
+}
+
+
+
+.main {
+  display: block;
+  position: relative;
+  top: 70px;
+  width: 100%;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.content {
+  display: block;
+  background-color: black;
+  text-align: center;
+  width: 100%
+}
+
+h2,h3,h4,h5 {
+  display: block;
+  width: 100%;
+  text-align: center;
+}
+
+
+
+
+
+#mission {
+  width: 1200px;
+  height: 700px;
+  margin: auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg);
+}
+
+
+
+#featured {
+  display: block;
+  height: 700px;
+  width: 1000px;
+  margin: auto;
+  padding-top: 50px;
+}
+
+.choices {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1000px;
+}
+
+.choice {
+  display: block;
+  padding: 10px;
+}
+
+.choice span {
+  display: block;
+  text-align: center;
+}
+
+
+
+#locations {
+  display: flex;
+  align-items: center;
+  width: 1200px;
+  height: 600px;
+  margin: auto;
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: auto;
+  width: 100%;
+}
+
+.block h2 {
+  line-height: 0px;
+}
+
+.addresses {
+  display: inline-flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 15px;
+}
+
+#locations .content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 300px;
+  height: 300px;
+  margin:  0px 40px;
+  opacity: 1;
+}
+
+
+
+footer {
+  display: block;
+}
+
+footer .container {
+  display: block;
+  height: 200px;
+}
+
+#copyright h5 {
+  display: flex;
+  text-align: left;
+  width: 100%;
+  padding-left: 20px;
+}
